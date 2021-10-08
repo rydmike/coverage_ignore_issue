@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/rydmike/coverage_ignore_issue/branch/master/graph/badge.svg?token=6LTgn2GSZT)](https://codecov.io/gh/rydmike/coverage_ignore_issue)
+
 # coverage_ignore_issue
 
 Coverage test issue
