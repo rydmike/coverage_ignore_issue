@@ -17,6 +17,18 @@ in codecov.io analysis.
 ## Conclusion
 
 The "ignore" did not work in Dart/Flutter before Flutter 2.5.0, but in
-2.5.0 and later release it seem to work fine with cases:
+Flutter 2.5.0 and later release it seem to work as follows. 
+The untestable and in test code unreachable line:
 
-1) ... (still, testing more case)
+```dart
+AppConst._();
+```
+
+Is reported as following:
+
+0) Reported as not tested => **OK!**
+1) Ignore after line => Ignored => **OK!**
+2) Before the line, like a lint ignore => Not ignored => **FAIL!**
+   Should it work?
+3) Before and on the line => Ignored  => **OK!**
+4) Enclosed with ignore => ?

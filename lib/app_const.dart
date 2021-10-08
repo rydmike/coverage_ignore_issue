@@ -15,6 +15,6 @@ class AppConst {
   // It also prevents constructor from showing up in IDE code completion.
   // coverage:ignore-line
   AppConst._();
-  static const String name = 'Demo app';
+  static const String name = 'Demo app'; // coverage:ignore-line
   static String get hello => 'Hello';
 }
