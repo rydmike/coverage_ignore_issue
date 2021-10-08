@@ -26,11 +26,11 @@ The untestable and in test code unreachable line:
 AppConst._();
 ```
 
-Is reported as following:
+Is reported as follows:
 
 0) Reported as not tested => **OK!**
 1) Ignore after line => Ignored => **OK!**
 2) Before the line, like a lint ignore => Not ignored => **FAIL!**
    Should it work?
 3) Before and on the line => Ignored  => **OK!**
-4) Enclosed with ignore => ?
+4) Enclosed with ignore => Ignored  => **OK!**
