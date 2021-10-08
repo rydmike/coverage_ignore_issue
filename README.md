@@ -13,3 +13,10 @@ in codecov.io analysis.
 3) Run with ignore using: // coverage:ignore-line - on and before the line
 4) Run with enclosing ignore using:
    // coverage:ignore-start and // coverage:ignore-end  
+
+## Conclusion
+
+The "ignore" did not work in Dart/Flutter before Flutter 2.5.0, but in
+2.5.0 and later release it seem to work fine with cases:
+
+1) ... (still, testing more case)

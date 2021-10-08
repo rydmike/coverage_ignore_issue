@@ -13,7 +13,8 @@ class AppConst {
   //
   // This private constructor prevents instantiation and extension of the class.
   // It also prevents constructor from showing up in IDE code completion.
-  AppConst._(); // coverage:ignore-line
+  // coverage:ignore-line
+  AppConst._();
   static const String name = 'Demo app';
   static String get hello => 'Hello';
 }
