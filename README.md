@@ -6,3 +6,5 @@ Coverage test issue
 
 This project is made to test the 'ignore' flag on private class constructor 
 in codecov.io analysis.
+
+1) Run without ignore using // coverage:ignore-line
