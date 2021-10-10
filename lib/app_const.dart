@@ -8,11 +8,8 @@
 // Grouping constants in a class is a pragmatic way to get around this.
 
 class AppConst {
-  // This class is not meant to be instantiated or extended, it only contains
-  // constants or static functions.
-  //
-  // This private constructor prevents instantiation and extension of the class.
-  // It also prevents constructor from showing up in IDE code completion.
+  // This class is not meant to be instantiated or extended; this constructor
+  // prevents instantiation and extension.
   AppConst._(); // coverage:ignore-line
 
   static const String name = 'Demo app';
