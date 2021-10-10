@@ -15,6 +15,7 @@ in codecov.io analysis.
 3) Run with ignore using: // coverage:ignore-line - on and before the line
 4) Run with enclosing ignore using:
    // coverage:ignore-start and // coverage:ignore-end  
+5) Run with ignore using: // coverage:ignore-line - on the line, but with some // comment on the line above it.
 
 ## Conclusion
 
@@ -34,3 +35,4 @@ Is reported as follows:
    Should it work?
 3) Before and on the line => Ignored  => **OK!**
 4) Enclosed with ignore => Ignored  => **OK!**
+5) Ignore after line, but some comment above => Ignored => **OK!**
